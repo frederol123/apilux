@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/bitrix/components/bitrix/system.auth.authorize/templates/.default/style.css" => "1628068739837","/bitrix/components/bitrix/system.show_message/templates/.default/style.css" => "162806873951",]; ?>

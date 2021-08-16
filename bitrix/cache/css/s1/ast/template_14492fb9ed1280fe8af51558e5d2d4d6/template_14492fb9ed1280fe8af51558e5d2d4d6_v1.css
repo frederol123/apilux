@@ -1,0 +1,152 @@
+
+
+/* Start:/bitrix/templates/ast/styles.css?16282392752797*/
+  @font-face {
+    font-family: "Oswald-Bold";
+    src: url("/bitrix/templates/ast/fonts/Oswald-Bold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Oswald-Regular";
+    src: url("/bitrix/templates/ast/fonts/Oswald-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Oswald-SemiBold";
+    src: url("/bitrix/templates/ast/fonts/Oswald-SemiBold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "OpenSans-Bold";
+    src: url("/bitrix/templates/ast/fonts/OpenSans-Bold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "OpenSans-Regular";
+    src: url("/bitrix/templates/ast/fonts/OpenSans-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "OpenSans-SemiBold";
+    src: url("/bitrix/templates/ast/fonts/OpenSans-SemiBold.ttf") format("truetype");
+  }
+
+  body {
+    font-family: "OpenSans-Regular";
+  }
+  
+  p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .container {
+    max-width: 1430px;
+    margin:0 auto;
+  }
+
+  .header-block{
+    display:grid;
+    grid-template-areas:". head head"
+                        "logo logo logo"
+                        "nav nav nav";
+    padding-top: 20px;
+    gap:10%;
+  }
+
+  .top-text-wrap{
+    grid-area: head;
+  }
+
+  .logo-wrapper{
+    grid-area: logo;
+  }
+
+  .header-menu{
+    grid-area: nav;
+  }
+
+  .flags .ru img{
+      display: inline-block;
+      position: relative;
+      top: -3px;
+  }
+
+  .flags .ru span{
+    display: inline-block;
+}
+
+  .flags .ru{
+
+  }
+
+  .top-text-wrap{
+      display:grid;
+      grid-template-columns: 1fr 100px;
+  }
+
+  .flags{
+      justify-self: flex-end;
+  }
+
+.flags .en{
+    display:none;
+}
+  
+.flags .en img{
+    display: inline-block;
+    position: relative;
+    top: -1px;
+}
+
+.flags .en span{
+  display: inline-block;
+}
+
+.flags .ru span:after, .flags .en span:after{
+    content: '';
+    background-image: url('/bitrix/templates/ast/images/arrow-down.png');
+    width:10px;
+    height:10px;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    left: 4px;
+}
+
+.flags .ru span, .flags .en span{
+    font-family: 'OpenSans-SemiBold';
+    font-size: 14px;
+}
+
+.top-text-wrap .top-text{
+    font-family: 'OpenSans-SemiBold';
+    font-size: 16px;
+}
+
+.logo-wrapper{
+  display:grid;
+  grid-template-columns: 420px 1fr 1fr;
+}
+
+.logo-text-first{
+  display: grid;
+  grid-template-columns: 80px  1fr;
+}
+
+.logo-text-first div>span{
+  display:block;
+  position: relative;
+  top:5px;
+  left:10px;
+  margin-top: 3px;
+}
+
+.logo-text-first div>span a{
+  text-decoration: none;
+  font-family: 'OpenSans-SemiBold';
+  font-size: 18px;
+  color:#000000;
+}
+
+.logo-text-second div>span{
+  margin-top: 15px;
+}
+/* End */
+/* /bitrix/templates/ast/styles.css?16282392752797 */

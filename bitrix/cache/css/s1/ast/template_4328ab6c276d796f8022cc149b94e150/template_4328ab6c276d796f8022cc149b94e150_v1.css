@@ -1,0 +1,84 @@
+
+
+/* Start:/bitrix/templates/ast/styles.css?16281574921535*/
+  @font-face {
+    font-family: "Oswald-Bold";
+    src: url("/bitrix/templates/ast/fonts/Oswald-Bold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Oswald-Regular";
+    src: url("/bitrix/templates/ast/fonts/Oswald-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Oswald-SemiBold";
+    src: url("/bitrix/templates/ast/fonts/Oswald-SemiBold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "OpenSans-Bold";
+    src: url("/bitrix/templates/ast/fonts/OpenSans-Bold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "OpenSans-Regular";
+    src: url("/bitrix/templates/ast/fonts/OpenSans-Regular.ttf") format("truetype");
+  }
+
+  body {
+    font-family: "OpenSans-Regular";
+  }
+  
+  .container {
+    width: 1230px;
+    margin:0 auto;
+  }
+  
+  p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .container {
+    max-width: 1430px;
+    margin:0 auto;
+  }
+
+  .header-block{
+    display:grid;
+    grid-template-areas:". head head head"
+                        "logo logo logo ."
+                        "nav nav nav nav";
+  }
+
+  .top-text-wrap{
+    grid-area: head;
+  }
+
+  .logo-wrapper{
+    grid-area: logo;
+  }
+
+  .header-menu{
+    grid-area: nav;
+  }
+
+  .flags .ru img{
+      display: inline-block;
+  }
+
+  .flags .ru span{
+    display: inline-block;
+}
+
+  .flags .ru{
+
+  }
+
+  .top-text-wrap{
+      display:grid;
+      grid-template-columns: 1fr 100px;
+  }
+
+  .flags{
+      justify-self: flex-end;
+  }
+/* End */
+/* /bitrix/templates/ast/styles.css?16281574921535 */
